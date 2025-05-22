@@ -37,7 +37,7 @@ MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002588525583')
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002647652455')) #Premium Subscription Log Channel Id
 reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002647652455') #Movie Request Channel Id
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002656970216') #Support Chat Id
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002642177619') #Support Chat Id
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://mehuldb:ymLdv8Sf2UW49x2m@withcluster.akoofaz.mongodb.net/") #MongoDB Url
@@ -70,13 +70,13 @@ TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/+JE_UJyYoj2E3NWNl")
 SHORTENER_API = environ.get("SHORTENER_API", "5a5bdff3f56b9f5458042d74b90856c743630c43")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "https://linkcents.com")
 
-SHORTENER_API2 = environ.get("SHORTENER_API2", "")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "")
+SHORTENER_API2 = environ.get("SHORTENER_API2", "5a5bdff3f56b9f5458042d74b90856c743630c43")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "https://linkcents.com")
 
-SHORTENER_API3 = environ.get("SHORTENER_API3", "")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "")
+SHORTENER_API3 = environ.get("SHORTENER_API3", "5a5bdff3f56b9f5458042d74b90856c743630c43")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "https://linkcents.com")
 
-TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "1200"))
+TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "600"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "54000"))
 
 #Othes
@@ -87,7 +87,7 @@ MAX_B_TN = environ.get("MAX_B_TN", "8")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 MSG_ALRT = environ.get('MSG_ALRT', 'Share & Support Us ♥️')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/MovieKaKeeda') #Support Chat Link with https://
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+MuajitWHC341NTRl') #Support Chat Link with https://
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
