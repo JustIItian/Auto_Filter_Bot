@@ -15,9 +15,9 @@ def is_enabled(value, default):
 
 
 SESSION = environ.get('SESSION', 'media_search')
-API_ID = int(environ.get('API_ID', '20114039'))
-API_HASH = environ.get('API_HASH', '87297b8f3cc8fc9bbce591ad30da5896')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7106331605:AAGwJHwmbmzSr6pYIRJJF6Yl5UkISdLT2jg")
+API_ID = int(environ.get('API_ID', '21771039'))
+API_HASH = environ.get('API_HASH', '5736ca1768da8374410bcd96106ecf31')
+BOT_TOKEN = environ.get('BOT_TOKEN', "7533324029:AAHAxMSG2tO1Vm191Lu6lA1pFtbpH6XGIdE")
 
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
@@ -29,18 +29,18 @@ SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/13702ae26fb05df5266
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/f983d857f3ce40795e4b8.jpg'))
 FSUB_IMG = (environ.get('FSUB_IMG', 'https://i.ibb.co/cShkPjcZ/x.jpg')).split() 
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '8172163893').split()]  #Admin Id
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6323515385').split()]  #Admin Id
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002546266253').split()] #Movie Database Channel Id
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002676199651'))  #Log Channel Id
-BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1002676199651'))  #Streming Log Channel Id
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002588525583'))  #Movie Update Channel Id
-PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002647652455')) #Premium Subscription Log Channel Id
-reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002647652455') #Movie Request Channel Id
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002501267479'))  #Log Channel Id
+BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1002501267479'))  #Streming Log Channel Id
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002552718745'))  #Movie Update Channel Id
+PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002678442544')) #Premium Subscription Log Channel Id
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002678442544') #Movie Request Channel Id
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002642177619') #Support Chat Id
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://mehuldb:ymLdv8Sf2UW49x2m@withcluster.akoofaz.mongodb.net/") #MongoDB Url
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://JustIItian:justiitian0935bk@cluster0.02kuof1.mongodb.net") #MongoDB Url
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'SilentXBotz_files')
 
@@ -49,17 +49,17 @@ MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "False"), False) # Type T
 DATABASE_URI2 = environ.get('DATABASE_URI2', "")
 
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/MovieKaKeeda')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+YgB1verq735mNzll')
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Thebhumihar')
-UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/+YgB1verq735mNzll')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+xNSJ2jfNJOM3ZTY1')
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Tum_Ek_Khwab')
+UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/+xNSJ2jfNJOM3ZTY1')
 
 #Force Subscription Channel (Put Same Channel Id In Both Veriables)
-AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1002500606405')) 
-AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '-1002500606405'))
+AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1002641947228')) 
+AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '-1002641947228'))
 
 IS_VERIFY = is_enabled('IS_VERIFY', True)
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002510687141')) #Verification Channel Id 
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002510687141')) #If Anyone Set Your Bot In Any Group And Set Shortner In That Group Then In This Channel The All Details Come
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002575823253')) #Verification Channel Id 
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002575823253')) #If Anyone Set Your Bot In Any Group And Set Shortner In That Group Then In This Channel The All Details Come
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://telegra.ph/file/9ecc5d6e4df5b83424896.jpg")
 
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/+JE_UJyYoj2E3NWNl")
