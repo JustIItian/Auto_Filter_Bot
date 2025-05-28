@@ -311,7 +311,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="https://t.me/+YgB1verq735mNzll">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a https://t.me/Thebhumihar>[𝘽𝙃𝙐𝙈𝙄𝙃𝘼𝙍]</a></b>\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n⚡𝐉𝐎𝐈𝐍:-BACKUP{https://t.me/+t4FtVzBmcRhjNzI1}\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"""
+    CAPTION = """<b><a href="https://t.me/+xNSJ2jfNJOM3ZTY1">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a https://t.me/Tum_Ek_Khwab>[𝐌𝐨𝐯𝐢𝐞 𝐊𝐚 𝐊𝐞𝐞𝐝𝐚]</a></b>\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n⚡𝐉𝐎𝐈𝐍:-BACKUP{https://t.me/+t4FtVzBmcRhjNzI1}\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"""
     
     IMDB_TEMPLATE_TXT = """
 <b>🏷 Title</b>: <a href={url}>{title}</a>
